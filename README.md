@@ -1,6 +1,6 @@
 # Sulu SchemaOrg Bundle
 
-This bundle integrate Structured Data from [Schema.org](https://schema.org/) to your project.
+This bundle integrates Structured Data from [Schema.org](https://schema.org/) to your project.
 
 ## Instalation
 
