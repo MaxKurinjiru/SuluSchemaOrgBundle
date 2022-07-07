@@ -5,13 +5,13 @@ declare(strict_types=1);
 /**
  * This file is part of Sulu SchemaOrg Bundle.
  *
- * (c) The Cocktail Experience S.L.
+ * (c) Pablo Lozano <lozanomunarriz@gmail.com>
  *
  *  This source file is subject to the MIT license that is bundled
  *  with this source code in the file LICENSE.
  */
 
-use TheCocktail\Bundle\SuluSchemaOrgBundle\Tests\Application\Kernel;
+use Plozmun\Bundle\SuluSchemaOrgBundle\Tests\Application\Kernel;
 use Sulu\Component\HttpKernel\SuluKernel;
 use Symfony\Component\HttpFoundation\Request;
 

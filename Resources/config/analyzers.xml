@@ -3,7 +3,7 @@
            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
            xsi:schemaLocation="http://symfony.com/schema/dic/services http://symfony.com/schema/dic/services/services-1.0.xsd">
     <services>
-        <service id="sulu.schema_org.analyzer.organization" class="TheCocktail\Bundle\SuluSchemaOrgBundle\Analyzer\OrganizationAnalyzer">
+        <service id="sulu.schema_org.analyzer.organization" class="Plozmun\Bundle\SuluSchemaOrgBundle\Analyzer\OrganizationAnalyzer">
             <argument type="service" id="sulu.repository.account"/>
             <argument type="service" id="sulu.schema_org.attributes"/>
             <tag name="sulu.schema_org.analyzer" priority=""/>

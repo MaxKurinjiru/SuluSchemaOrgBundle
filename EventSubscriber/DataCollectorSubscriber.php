@@ -3,20 +3,20 @@
 /**
  * This file is part of Sulu SchemaOrg Bundle.
  *
- * (c) The Cocktail Experience S.L.
+ * (c) Pablo Lozano <lozanomunarriz@gmail.com>
  *
  *  This source file is subject to the MIT license that is bundled
  *  with this source code in the file LICENSE.
  */
 
-namespace TheCocktail\Bundle\SuluSchemaOrgBundle\EventSubscriber;
+namespace Plozmun\Bundle\SuluSchemaOrgBundle\EventSubscriber;
 
 use Symfony\Component\EventDispatcher\EventSubscriberInterface;
 use Symfony\Component\HttpKernel\Event\ControllerEvent;
 use Symfony\Component\HttpKernel\Event\ResponseEvent;
 use Symfony\Component\HttpKernel\KernelEvents;
-use TheCocktail\Bundle\SuluSchemaOrgBundle\Factory\SchemaOrgFactory;
-use TheCocktail\Bundle\SuluSchemaOrgBundle\HttpFoundation\RequestChainCollector;
+use Plozmun\Bundle\SuluSchemaOrgBundle\Factory\SchemaOrgFactory;
+use Plozmun\Bundle\SuluSchemaOrgBundle\HttpFoundation\RequestChainCollector;
 
 class DataCollectorSubscriber implements EventSubscriberInterface
 {

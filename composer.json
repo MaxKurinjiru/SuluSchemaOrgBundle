@@ -1,12 +1,11 @@
 {
-    "name": "the-cocktail/sulu-schema-org-bundle",
+    "name": "plozmun/sulu-schema-org-bundle",
     "description": "Sulu Bundle for structured data creation",
     "type": "sulu-bundle",
-    "homepage": "https://the-cocktail.com",
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "TheCocktail\\Bundle\\SuluSchemaOrgBundle\\": ""
+            "Plozmun\\Bundle\\SuluSchemaOrgBundle\\": ""
         },
         "exclude-from-classmap": [
             "/Tests/"
@@ -14,7 +13,7 @@
     },
     "autoload-dev": {
         "psr-4": {
-            "TheCocktail\\Bundle\\SuluSchemaOrgBundle\\Tests\\": "Tests"
+            "Plozmun\\Bundle\\SuluSchemaOrgBundle\\Tests\\": "Tests"
         }
     },
     "require": {

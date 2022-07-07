@@ -3,5 +3,5 @@ services:
         autowire: true
         autoconfigure: true
 
-    TheCocktail\Bundle\SuluSchemaOrgBundle\Tests\Application\DataFixtures\:
+    Plozmun\Bundle\SuluSchemaOrgBundle\Tests\Application\DataFixtures\:
         resource: '../DataFixtures'

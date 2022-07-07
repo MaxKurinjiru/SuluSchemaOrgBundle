@@ -3,7 +3,7 @@
            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
            xsi:schemaLocation="http://symfony.com/schema/dic/services http://symfony.com/schema/dic/services/services-1.0.xsd">
     <services>
-        <service id="TheCocktail\Bundle\SuluSchemaOrgBundle\Transformer\MediaTransformer">
+        <service id="Plozmun\Bundle\SuluSchemaOrgBundle\Transformer\MediaTransformer">
             <argument type="service" id="sulu_media.media_manager"/>
             <argument type="service" id="request_stack"/>
             <argument>%sulu.schema_org.config.image_format%</argument>
@@ -11,19 +11,19 @@
             <tag name="sulu.context" context="website"/>
         </service>
 
-        <service id="TheCocktail\Bundle\SuluSchemaOrgBundle\Transformer\PageSelectionTransformer">
+        <service id="Plozmun\Bundle\SuluSchemaOrgBundle\Transformer\PageSelectionTransformer">
             <argument type="service" id="sulu_page.link_tag.page_provider"/>
             <argument type="service" id="request_stack"/>
             <tag name="sulu.schema_org.transformer" alias="page_selection"/>
             <tag name="sulu.context" context="website"/>
         </service>
 
-        <service id="TheCocktail\Bundle\SuluSchemaOrgBundle\Transformer\PageTreeRouteTransformer">
+        <service id="Plozmun\Bundle\SuluSchemaOrgBundle\Transformer\PageTreeRouteTransformer">
             <tag name="sulu.schema_org.transformer" alias="page_tree_route"/>
             <tag name="sulu.context" context="website"/>
         </service>
 
-        <service id="TheCocktail\Bundle\SuluSchemaOrgBundle\Transformer\SimpleTransformer">
+        <service id="Plozmun\Bundle\SuluSchemaOrgBundle\Transformer\SimpleTransformer">
             <tag name="sulu.schema_org.transformer" alias="simple"/>
             <tag name="sulu.context" context="website"/>
         </service>

@@ -5,12 +5,12 @@ This bundle integrate Structured Data from [Schema.org](https://schema.org/) to 
 ## Instalation
 
 ```shell script
-composer requiere the-cocktail/sulu-schema-org-bundle
+composer requiere plozmun/sulu-schema-org-bundle
 ```
 
 Insert this code into your "base.html.twig" so that the entire generated schema is automatically inserted into the response.
 ```
-  {{ constant('TheCocktail\\Bundle\\SuluSchemaOrgBundle\\Factory\\SchemaOrgFactory::TWIG_KEY')|raw }}
+  {{ constant('Plozmun\\Bundle\\SuluSchemaOrgBundle\\Factory\\SchemaOrgFactory::TWIG_KEY')|raw }}
 ```
 
 Now you can define Schema types for each template adding a 'sulu.schema_org' tag for each template and elements.

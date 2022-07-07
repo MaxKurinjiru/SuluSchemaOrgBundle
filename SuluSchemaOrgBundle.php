@@ -1,14 +1,14 @@
 <?php
 
-namespace TheCocktail\Bundle\SuluSchemaOrgBundle;
+namespace Plozmun\Bundle\SuluSchemaOrgBundle;
 
 use Symfony\Component\DependencyInjection\ContainerBuilder;
 use Symfony\Component\HttpKernel\Bundle\Bundle;
-use TheCocktail\Bundle\SuluSchemaOrgBundle\DependencyInjection\Compiler\ExtensionPass;
-use TheCocktail\Bundle\SuluSchemaOrgBundle\DependencyInjection\Compiler\AnalyzerPass;
-use TheCocktail\Bundle\SuluSchemaOrgBundle\DependencyInjection\Compiler\BuilderPass;
-use TheCocktail\Bundle\SuluSchemaOrgBundle\DependencyInjection\Compiler\TransformerPass;
-use TheCocktail\Bundle\SuluSchemaOrgBundle\Extension\ExtensionInterface;
+use Plozmun\Bundle\SuluSchemaOrgBundle\DependencyInjection\Compiler\ExtensionPass;
+use Plozmun\Bundle\SuluSchemaOrgBundle\DependencyInjection\Compiler\AnalyzerPass;
+use Plozmun\Bundle\SuluSchemaOrgBundle\DependencyInjection\Compiler\BuilderPass;
+use Plozmun\Bundle\SuluSchemaOrgBundle\DependencyInjection\Compiler\TransformerPass;
+use Plozmun\Bundle\SuluSchemaOrgBundle\Extension\ExtensionInterface;
 
 /**
  * Entry-point for university-bundle.

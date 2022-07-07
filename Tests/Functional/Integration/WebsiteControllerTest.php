@@ -1,6 +1,6 @@
 <?php
 
-namespace TheCocktail\Bundle\SuluSchemaOrgBundle\Tests\Functional\Integration;
+namespace Plozmun\Bundle\SuluSchemaOrgBundle\Tests\Functional\Integration;
 
 use Sulu\Bundle\TestBundle\Testing\WebsiteTestCase;
 

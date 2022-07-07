@@ -3,7 +3,7 @@
 /**
  * This file is part of Sulu SchemaOrg Bundle.
  *
- * (c) The Cocktail Experience S.L.
+ * (c) Pablo Lozano <lozanomunarriz@gmail.com>
  *
  *  This source file is subject to the MIT license that is bundled
  *  with this source code in the file LICENSE.
@@ -11,7 +11,7 @@
 
 declare(strict_types=1);
 
-namespace TheCocktail\Bundle\SuluSchemaOrgBundle\Mapper;
+namespace Plozmun\Bundle\SuluSchemaOrgBundle\Mapper;
 
 use Spatie\SchemaOrg\BaseType;
 use Spatie\SchemaOrg\Contracts\CreativeWorkContract;
@@ -19,11 +19,11 @@ use Spatie\SchemaOrg\Schema;
 use Sulu\Component\Content\Compat\Structure\StructureBridge;
 use Sulu\Component\Content\Compat\StructureInterface;
 use Sulu\Component\Content\Document\Behavior\WorkflowStageBehavior;
-use TheCocktail\Bundle\SuluSchemaOrgBundle\Analyzer\SchemaOrgAnalyzerInterface;
-use TheCocktail\Bundle\SuluSchemaOrgBundle\Exception\SchemaTypeNotFound;
-use TheCocktail\Bundle\SuluSchemaOrgBundle\Exception\SchemaTypeNotImplemented;
-use TheCocktail\Bundle\SuluSchemaOrgBundle\Model\SchemaModel;
-use TheCocktail\Bundle\SuluSchemaOrgBundle\Transformer\TransformerChain;
+use Plozmun\Bundle\SuluSchemaOrgBundle\Analyzer\SchemaOrgAnalyzerInterface;
+use Plozmun\Bundle\SuluSchemaOrgBundle\Exception\SchemaTypeNotFound;
+use Plozmun\Bundle\SuluSchemaOrgBundle\Exception\SchemaTypeNotImplemented;
+use Plozmun\Bundle\SuluSchemaOrgBundle\Model\SchemaModel;
+use Plozmun\Bundle\SuluSchemaOrgBundle\Transformer\TransformerChain;
 
 class StructureMapper
 {
