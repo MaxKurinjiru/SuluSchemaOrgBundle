@@ -72,7 +72,8 @@ Generated code:
 There are some useful options for self-assigning Seo and Extracts properties
 
 ```yaml
-#config/packages/sulu_schema_org
+#config/packages/sulu_schema_org.yaml
+
 sulu_schema_org:
     # image format generated for all image types
     image_format: "sulu-240x"
